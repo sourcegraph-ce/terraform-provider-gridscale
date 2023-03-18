@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 	errHandler "github.com/terraform-providers/terraform-provider-gridscale/gridscale/error-handler"
 
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceGridscalePaaS() *schema.Resource {
