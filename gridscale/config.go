@@ -2,7 +2,7 @@ package gridscale
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	"github.com/gridscale/gsclient-go/v3"
